@@ -14,5 +14,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-admin-vaadin</module>
+    <module>doodle-console-vaadin</module>
   </modules>
 </project>

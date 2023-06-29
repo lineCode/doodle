@@ -18,6 +18,7 @@
     <module>doodle-broker-server</module>
     <module>doodle-chat-server</module>
     <module>doodle-config-server</module>
+    <module>doodle-console-server</module>
     <module>doodle-excel-server</module>
     <module>doodle-login-server</module>
     <module>doodle-payment-server</module>
