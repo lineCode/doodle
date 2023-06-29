@@ -12,4 +12,7 @@
   </parent>
   <artifactId>doodle-vaadin</artifactId>
   <packaging>pom</packaging>
+  <modules>
+    <module>doodle-admin-vaadin</module>
+  </modules>
 </project>
