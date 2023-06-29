@@ -13,6 +13,7 @@
   <artifactId>doodle-broker-server</artifactId>
   <properties>
     <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
+    <start-class>org.doodle.broker.server.single.BrokerServerApplication</start-class>
   </properties>
   <dependencies>
     <dependency>
@@ -20,4 +21,12 @@
       <artifactId>doodle-broker-starter-server</artifactId>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>
