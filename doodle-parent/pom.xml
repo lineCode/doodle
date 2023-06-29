@@ -25,7 +25,7 @@
     <doodle-chat.version>0.0.1-SNAPSHOT</doodle-chat.version>
     <doodle-auction.version>0.0.1-SNAPSHOT</doodle-auction.version>
     <spotless.license-header.file>
-      ${project.basedir}/../src/checkstyle/license-header.txt
+      ${project.basedir}/../../src/checkstyle/license-header.txt
     </spotless.license-header.file>
   </properties>
   <dependencyManagement>

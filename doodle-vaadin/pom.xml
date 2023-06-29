@@ -6,18 +6,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.doodle</groupId>
-    <artifactId>doodle-parent</artifactId>
+    <artifactId>doodle</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-parent/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
+  <artifactId>doodle-vaadin</artifactId>
   <packaging>pom</packaging>
-  <properties>
-    <maven.deploy.skip>true</maven.deploy.skip>
-  </properties>
-  <modules>
-    <module>doodle-parent</module>
-    <module>doodle-servers</module>
-    <module>doodle-vaadin</module>
-  </modules>
 </project>

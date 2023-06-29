@@ -6,18 +6,18 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.doodle</groupId>
-    <artifactId>doodle-parent</artifactId>
+    <artifactId>doodle-servers</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-parent/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>doodle</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>doodle-broker-server</artifactId>
   <properties>
-    <maven.deploy.skip>true</maven.deploy.skip>
+    <spotless-maven-plugin.skip>false</spotless-maven-plugin.skip>
   </properties>
-  <modules>
-    <module>doodle-parent</module>
-    <module>doodle-servers</module>
-    <module>doodle-vaadin</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-broker-starter-server</artifactId>
+    </dependency>
+  </dependencies>
 </project>
