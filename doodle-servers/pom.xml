@@ -14,5 +14,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>doodle-broker-server</module>
+    <module>doodle-config-server</module>
   </modules>
 </project>
