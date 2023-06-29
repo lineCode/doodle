@@ -23,5 +23,6 @@
     <module>doodle-login-server</module>
     <module>doodle-payment-server</module>
     <module>doodle-pipeline-server</module>
+    <module>doodle-security-server</module>
   </modules>
 </project>

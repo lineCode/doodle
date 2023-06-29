@@ -133,6 +133,15 @@ jobs:
         run: ./mvnw install
         working-directory: org-doodle/doodle-pipeline
 
+      - name: Checkout doodle-security
+        uses: actions/checkout@v3
+        with:
+          repository: org-doodle/doodle-security
+          path: org-doodle/doodle-security
+      - name: Install doodle-security
+        run: ./mvnw install
+        working-directory: org-doodle/doodle-security
+
       - name: Checkout coding style
         run: ./mvnw spotless:check
 

@@ -25,6 +25,7 @@
     <doodle-chat.version>0.0.1-SNAPSHOT</doodle-chat.version>
     <doodle-auction.version>0.0.1-SNAPSHOT</doodle-auction.version>
     <doodle-pipeline.version>0.0.1-SNAPSHOT</doodle-pipeline.version>
+    <doodle-security.version>0.0.1-SNAPSHOT</doodle-security.version>
     <spotless.license-header.file>
       ${project.basedir}/../../src/checkstyle/license-header.txt
     </spotless.license-header.file>
@@ -112,6 +113,13 @@
         <groupId>org.doodle</groupId>
         <artifactId>doodle-pipeline-dependencies</artifactId>
         <version>${doodle-pipeline.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.doodle</groupId>
+        <artifactId>doodle-security-dependencies</artifactId>
+        <version>${doodle-security.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
