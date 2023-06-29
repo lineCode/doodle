@@ -15,5 +15,6 @@
   <modules>
     <module>doodle-broker-server</module>
     <module>doodle-config-server</module>
+    <module>doodle-excel-server</module>
   </modules>
 </project>
