@@ -13,6 +13,7 @@
   <artifactId>doodle-servers</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>doodle-auction-server</module>
     <module>doodle-broker-server</module>
     <module>doodle-chat-server</module>
     <module>doodle-config-server</module>
