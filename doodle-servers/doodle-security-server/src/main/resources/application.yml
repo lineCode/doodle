@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: doodle-security-server
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: doodle-security
+      username: doodle
+      password: doodle
+      authentication-database: admin
+
+doodle:
+  broker:
+    client:
+      enabled: true
+      auto-connected: true
+      tags:
+        server-type: security
+  security:
+    server:
+      init-users:
+        - username: admin
+          password: "{bcrypt}$2a$10$GRLdNijSQMUvl/au9ofL.eDwmoohzzS7.rmNSJZ.0FxO/BTk76klW"
+          enabled: true
+          authorities: [ "ROLE_SECURITY_ADMIN", "ROLE_BROKER_ADMIN", "ROLE_CONFIG_ADMIN", "ROLE_LOGIN_ADMIN", "ROLE_PAYMENT_ADMIN" ]

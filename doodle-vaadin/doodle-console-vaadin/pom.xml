@@ -18,6 +18,34 @@
   <dependencies>
     <dependency>
       <groupId>org.doodle</groupId>
+      <artifactId>doodle-broker-starter-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-security-starter-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-security-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-broker-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-config-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-login-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-payment-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
       <artifactId>doodle-console-starter-vaadin</artifactId>
     </dependency>
   </dependencies>

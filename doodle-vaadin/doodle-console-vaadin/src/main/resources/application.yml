@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: doodle-console-vaadin
+
+doodle:
+  broker:
+    client:
+      enabled: true
+      auto-connected: true
+      tags:
+        server-type: vaadin
+        server-name: ${spring.application.name}
+
+  security:
+    client:
+      enabled: true
+
