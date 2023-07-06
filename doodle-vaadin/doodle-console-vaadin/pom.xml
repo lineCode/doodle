@@ -38,11 +38,31 @@
     </dependency>
     <dependency>
       <groupId>org.doodle</groupId>
+      <artifactId>doodle-excel-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
       <artifactId>doodle-login-starter-vaadin</artifactId>
     </dependency>
     <dependency>
       <groupId>org.doodle</groupId>
       <artifactId>doodle-payment-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-chat-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-auction-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-kvstore-starter-vaadin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.doodle</groupId>
+      <artifactId>doodle-pipeline-starter-vaadin</artifactId>
     </dependency>
     <dependency>
       <groupId>org.doodle</groupId>

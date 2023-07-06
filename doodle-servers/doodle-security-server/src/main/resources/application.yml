@@ -24,4 +24,4 @@ doodle:
         - username: admin
           password: "{bcrypt}$2a$10$GRLdNijSQMUvl/au9ofL.eDwmoohzzS7.rmNSJZ.0FxO/BTk76klW"
           enabled: true
-          authorities: [ "ROLE_SECURITY_ADMIN", "ROLE_BROKER_ADMIN", "ROLE_CONFIG_ADMIN", "ROLE_LOGIN_ADMIN", "ROLE_PAYMENT_ADMIN" ]
+          authorities: [ "ROLE_SECURITY_ADMIN", "ROLE_BROKER_ADMIN", "ROLE_CONFIG_ADMIN", "ROLE_LOGIN_ADMIN", "ROLE_PAYMENT_ADMIN", "ROLE_CHAT_ADMIN", "ROLE_AUCTION_ADMIN", "ROLE_PIPELINE_ADMIN", "ROLE_EXCEL_ADMIN", "ROLE_KVSTORE_ADMIN" ]

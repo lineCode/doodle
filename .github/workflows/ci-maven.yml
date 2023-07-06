@@ -142,6 +142,15 @@ jobs:
         run: ./mvnw install
         working-directory: org-doodle/doodle-security
 
+      - name: Checkout doodle-kvstore
+        uses: actions/checkout@v3
+        with:
+          repository: org-doodle/doodle-kvstore
+          path: org-doodle/doodle-kvstore
+      - name: Install doodle-kvstore
+        run: ./mvnw install
+        working-directory: org-doodle/doodle-kvstore
+
       - name: Checkout coding style
         run: ./mvnw spotless:check
 
